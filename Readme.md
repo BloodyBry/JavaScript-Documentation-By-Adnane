@@ -1,5 +1,4 @@
-# ⚡ JavaScript Syntax — Variables & Data Types
-A quick summary of how to declare variables and understand data types in JavaScript.
+# ⚡ JavaScript Documentation By Adnane (bloodybry)
 
 ### 1️⃣ Variables
 Variables store data values and are declared using `let`, `const`, or `var`.
