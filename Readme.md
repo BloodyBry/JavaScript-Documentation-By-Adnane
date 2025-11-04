@@ -10,10 +10,13 @@ const age = 23;        // cannot be reassigned
 var city = "Kenitra";  // old syntax (avoid using in modern JS)
 
 console.log(name, age, city); // Adnane 23 Kenitra
+```
+
 
 ### 2️⃣ Data Types
 Primitive types include strings, numbers, booleans, null, undefined, symbol, and bigint.
 
+```javascript
 let text = "Hello";       // string
 let number = 42;          // number
 let isRunning = true;     // boolean
@@ -25,7 +28,7 @@ let big = 12345678901234567890n; // bigint
 console.log(typeof text);      // "string"
 console.log(typeof number);    // "number"
 console.log(typeof isRunning); // "boolean"
-
+```
 Non-primitive types include objects, arrays, and functions.
 
 let person = { name: "Adnane", age: 23 }; // object
