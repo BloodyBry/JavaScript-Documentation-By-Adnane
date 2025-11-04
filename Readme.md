@@ -30,7 +30,7 @@ console.log(typeof number);    // "number"
 console.log(typeof isRunning); // "boolean"
 ```
 Non-primitive types include objects, arrays, and functions.
-
+```javascript
 let person = { name: "Adnane", age: 23 }; // object
 let colors = ["red", "green", "blue"];    // array
 function greet() { return "Hello!"; }     // function
@@ -38,30 +38,33 @@ function greet() { return "Hello!"; }     // function
 console.log(typeof person);  // "object"
 console.log(typeof colors);  // "object"
 console.log(typeof greet);   // "function"
-
+```
 ### JavaScript Functions
 
 JavaScript functions can be declared in three main ways.
 **Function Declaration**
+```javascript
 function greet(name) {
   return `Hello YouCode, I'm ${name}!`;
 }
 console.log(greet("Adnane")); // Hello YouCode, I'm Adnane!
-
+```
 **Function Expression**
+```javascript
 const greetExpr = function(name) {
   return `Hello, ${name}!`;
 };
 console.log(greetExpr("Adnane")); // Hello, Adnane!
-
+```
 **Arrow Function**
+```javascript
 const greetArrow = (name) => `Hello, ${name}!`;
 console.log(greetArrow("Adnane")); // Hello, Adnane!
-
+```
 
 ### 🌐 DOM Manipulation — Selecting Elements
 Select and manipulate HTML elements using JavaScript.
-
+```javascript
 // Select by ID
 const title = document.getElementById("main-title");
 
@@ -76,10 +79,10 @@ const items = document.getElementsByClassName("item");
 
 // Select by tag name
 const divs = document.getElementsByTagName("div");
-
+```
 ### Arrays Manipulation in JavaScript
 Declare, manipulate, iterate, and transform arrays.
-
+```javascript
 // Declaring arrays
 const fruits = ["apple", "banana", "cherry"];
 console.log(fruits.length); // 3
@@ -120,11 +123,11 @@ console.log(nums2);
 const arr = [1, 2, 3, 4];
 const sum = arr.reduce((acc, val) => acc + val, 0);
 console.log(sum);
-
+```
 
 ### DOM Manipulation — Modifying Elements
 Change content, attributes, styles, and handle events.
-
+```javascript
 // Manipulate content
 title.textContent = "Hello World!";
 title.innerText = "Welcome Back!";
@@ -165,3 +168,4 @@ const element = document.querySelector(".item");
 console.log(element.parentElement);
 console.log(element.children);
 console.log(element.nextElementSibling);
+```
