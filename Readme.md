@@ -1,6 +1,6 @@
-# ⚡ JavaScript Documentation By Adnane (bloodybry)
+# JavaScript Documentation By Adnane (bloodybry)
 
-### 1️⃣ Variables
+### Variables
 Variables store data values and are declared using `let`, `const`, or `var`.
 
 ```javascript
@@ -12,7 +12,7 @@ console.log(name, age, city); // Adnane 23 Kenitra
 ```
 
 
-### 2️⃣ Data Types
+### Data Types
 Primitive types include strings, numbers, booleans, null, undefined, symbol, and bigint.
 
 ```javascript
@@ -61,7 +61,7 @@ const greetArrow = (name) => `Hello, ${name}!`;
 console.log(greetArrow("Adnane")); // Hello, Adnane!
 ```
 
-### 🌐 DOM Manipulation — Selecting Elements
+### DOM Manipulation — Selecting Elements
 Select and manipulate HTML elements using JavaScript.
 ```javascript
 // Declaring arrays
@@ -113,16 +113,16 @@ console.log(sum);
 ### DOM Manipulation — Modifying Elements
 Change content, attributes, styles, and handle events.
 ```javascript
-// 🧱 Manipulate content
+// Manipulate content
 title.textContent = "Hello World!";       // Changes the text inside the element (no HTML)
 title.innerText = "Welcome Back!";        // Similar to textContent but respects CSS (like hidden text)
 title.innerHTML = "<span>Hi there!</span>"; // Inserts HTML inside the element
 
-// ⚙️ Manage attributes
+// Manage attributes
 title.setAttribute("class", "highlight");   // Sets or updates the 'class' attribute
 console.log(title.getAttribute("class"));   // Gets and logs the value of the 'class' attribute
 
-// ➕➖ Add or remove elements
+// Add or remove elements
 const newDiv = document.createElement("div"); // Creates a new <div> element
 newDiv.textContent = "New Element";           // Adds text inside the new div
 document.body.appendChild(newDiv);            // Adds the div to the end of the <body>
@@ -135,12 +135,12 @@ const newChild = document.createElement("p"); // Creates a new <p> element
 newChild.textContent = "Replaced!";
 parent.replaceChild(newChild, document.getElementById("oldChild")); // Replaces one child with another
 
-// 🖱️ Events
+// Events
 const btn = document.getElementById("myButton");
 btn.addEventListener("click", () => alert("Button clicked!")); // Runs function when button is clicked
 document.addEventListener("keyup", e => console.log("Key pressed:", e.key)); // Logs key pressed by user
 
-// 🎨 Styles & classes
+// Styles & classes
 const box = document.querySelector(".box");
 box.style.backgroundColor = "lightblue";  // Changes background color
 box.style.border = "2px solid black";     // Adds a border
@@ -148,7 +148,7 @@ box.classList.add("active");              // Adds a CSS class
 box.classList.remove("hidden");           // Removes a CSS class
 box.classList.toggle("highlighted");      // Adds/removes class depending on its current state
 
-// 🧭 DOM Traversing
+// DOM Traversing
 const element = document.querySelector(".item");
 console.log(element.parentElement);       // Logs the parent element
 console.log(element.children);            // Logs all child elements
