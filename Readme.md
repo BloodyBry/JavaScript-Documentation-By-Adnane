@@ -152,6 +152,6 @@ box.classList.toggle("highlighted");      // Adds/removes class depending on its
 const element = document.querySelector(".item");
 console.log(element.parentElement);       // Logs the parent element
 console.log(element.children);            // Logs all child elements
-console.log(element.nextElementSibling);  // Logs the next sibling element
+console.log(element.nextElementSibling);  //Logs the next sibling element
 
 ```
